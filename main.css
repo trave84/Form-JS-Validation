@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  max-height: 5rem;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+main {
+  margin: 50px 0;
+  padding: 1rem;
+}
+
+#formSuccessMsg,
+#formFailureMsg {
+  display: none;
+  color: white;
+}
+
+form {
+  background-color: lightskyblue;
+  border-radius: 0.5rem;
+  width: 50vw;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#loading {
+  display: none;
+  width: 10vw;
+  margin: 2rem auto;
+}
+
+#loaderImg {
+  width: 10vw;
+  opacity: 0.5;
+}
+
+.alertedField {
+  color: white;
+  background: lightcoral;
+}
+
+.alertMsg {
+  display: none;
+  color: red;
+}
+
+.dobInput {
+  width: 12rem;
+  background-color: white;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+.genderLabel {
+  margin-right: 1rem;
+}
+
+.childNumInput {
+  width: 5rem;
+}
+
+.footer {
+  height: 5rem;
+  background-color: #f8f9fa;
+}
